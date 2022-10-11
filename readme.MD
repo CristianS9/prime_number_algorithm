@@ -57,7 +57,7 @@ Basically the algoritm consists of aplying the simple IF/ELSE from section 2.1 b
 ## 2.4 Extra info on A199593
 
 Since I'm not the one that created that list, I didn't dug on how the formula works,Im laizy, thats a reallity I have assumed :), so the use I do in the code is using brute-force to create the A199593 List.
-// But one of the thins I noticed:
+|| But some of the things I noticed:
 
 -   n and k need to be equal to don't loose any anti-prime number. IF this variables are low, some anti-prime numbers won't be generated,thus some generated numbers will not be primes!
 -   Remove all the 0's from N,K and CANT_PRIMES and then. n\*k> CANT_PRIMES must be true so you don't loose any anti-prime numbers.
